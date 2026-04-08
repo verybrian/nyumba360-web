@@ -1,0 +1,26 @@
+.auth-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 0;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 50px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    justify-content: center;
+  }
+}
