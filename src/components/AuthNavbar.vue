@@ -2,7 +2,7 @@
   <nav class="auth-navbar">
     <div class="nav-container">
       <a href="/" class="nav-logo">
-        <img src="../assets/logo.webp" alt="Ziara Property Management Logo" />
+        <img src="../assets/logo.webp" alt="Nyumba360 Property Management Logo" />
       </a>
     </div>
   </nav>
