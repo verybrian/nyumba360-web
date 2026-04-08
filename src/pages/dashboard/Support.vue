@@ -10,12 +10,12 @@
 
       <div class="info-item">
         <span class="label">Call / WhatsApp</span>
-        <span class="value">(+254) 0702956098</span>
+        <span class="value">(+254) 0700000000</span>
       </div>
 
       <div class="info-item">
         <span class="label">Email</span>
-        <span class="value">support@nyumba360.co.ke</span>
+        <span class="value">support@email.com</span>
       </div>
     </section>
 
@@ -42,7 +42,7 @@
         <h3 class="question">Who can I contact for billing issues?</h3>
         <p class="answer">
           For billing and invoices, please email
-          <strong>support@nyumba360.co.ke</strong> or reach us via WhatsApp.
+          <strong>support@email.com</strong> or reach us via WhatsApp.
         </p>
       </div>
 
