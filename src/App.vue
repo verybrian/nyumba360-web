@@ -10,8 +10,6 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import AuthNavbar from './components/AuthNavbar.vue'
-import AppFooter from './components/AppFooter.vue'
-import AppNavbar from './components/AppNavbar.vue'
 
 const route = useRoute()
 </script>
