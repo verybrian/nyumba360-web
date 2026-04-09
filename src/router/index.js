@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SignUp from '../views/SignUp.vue'
 import LogIn from '../views/LogIn.vue'
 import PasswordReset from '../views/PasswordReset.vue'
+import Landing from '../views/Landing.vue'
 
 import DashboardLayout from '../views/Dashboard.vue'
 import DashboardHome from '../pages/dashboard/Home.vue'
@@ -20,6 +21,12 @@ import { useAuthStore } from '@/stores/auth'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/',
+      name: 'landing',
+      component: Landing,
+      meta: { authLayout: false, showFooter: false },
+    },
     {
       path: '/signup',
       name: 'signup',
