@@ -10,7 +10,9 @@
       }"
     >
       <div class="logo">
-        <img :src="isSidebarCollapsed ? logoCollapsed : logoFull" class="logo-img" />
+        <router-link to="/" class="logo-text">
+          <span class="logo-nyumba">Nyumba</span><span class="logo-360">360</span>
+        </router-link>
       </div>
 
       <nav class="nav-links">
@@ -317,9 +319,6 @@ import NavIconUser from '@/components/icons/NavIconUser.vue'
 import NavIconSettings from '@/components/icons/NavIconSettings.vue'
 import NavIconSupport from '@/components/icons/NavIconSupport.vue'
 import NavIconLogout from '@/components/icons/NavIconLogout.vue'
-
-import logoFull from '@/assets/logo.webp'
-import logoCollapsed from '@/assets/logo-collapsed.png'
 
 const router = useRouter()
 const route = useRoute()

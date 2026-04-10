@@ -1,9 +1,9 @@
 <template>
   <nav class="auth-navbar">
     <div class="nav-container">
-      <a href="/" class="nav-logo">
-        <img src="../assets/logo.webp" alt="Nyumba360 Property Management Logo" />
-      </a>
+      <router-link to="/" class="nav-logo">
+        <span class="logo-nyumba">Nyumba</span><span class="logo-360">360</span>
+      </router-link>
     </div>
   </nav>
 </template>

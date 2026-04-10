@@ -13,10 +13,30 @@
   align-items: center;
 }
 
-.nav-logo img {
-  height: 50px;
-  object-fit: contain;
-  display: block;
+.nav-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-nyumba {
+  color: var(--landing-dark-azure, #1b414b);
+}
+
+.logo-360 {
+  color: var(--landing-light-azure, #386572);
+}
+
+.dark .nav-logo .logo-nyumba {
+  color: #4a8a94;
+}
+
+.dark .nav-logo .logo-360 {
+  color: #5a9aaa;
 }
 
 @media (max-width: 600px) {
